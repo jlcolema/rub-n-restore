@@ -1,0 +1,11 @@
+/* CSS Document */
+
+
+.wp-block[data-align="full"] {
+	max-width: none;
+}
+
+.wp-block {
+	max-width: 100%;
+}
+

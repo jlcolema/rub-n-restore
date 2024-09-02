@@ -1,0 +1,28 @@
+.DS_Store
+*.nova
+*.code-workspace
+*.sql
+conf/*
+logs/*
+organize/*
+
+# Ignore everything in the root except the 'wp-content' directory.
+
+app/public/*
+
+!app/public/wp-content/
+
+# Ignore everything in the 'wp-content' directory, except the `themes` directory.
+
+app/public/wp-content/*
+
+!app/public/wp-content/themes/
+
+# Ignore everything in the `themes` directory, except the following:
+
+app/public/wp-content/themes/*
+
+# Themes
+
+!app/public/wp-content/themes/rub-n-restore-gp/
+!app/public/wp-content/themes/rubnrestore/

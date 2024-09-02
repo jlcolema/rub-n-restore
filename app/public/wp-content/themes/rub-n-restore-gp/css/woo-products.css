@@ -1,0 +1,64 @@
+/* CSS Document */
+
+
+
+
+/*.shortcode-wcpr-grid.shortcode-wcpr-masonry-3-col, .wcpr-grid.wcpr-masonry-3-col {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+}*/
+
+.woocommerce-variation-description {
+    display: none;
+}
+.shortcode-wcpr-grid.shortcode-wcpr-masonry-3-col > div, .wcpr-grid.wcpr-masonry-3-col > div {
+	/*flex: 1 1 310px;*/
+	background: #f1edeb !important;
+	padding: 20px;
+	border: 1px solid #d6d2cc;
+}
+a.plus, a.minus {
+	display: none !important;
+}
+
+.product-details a.plus,
+.product-details a.minus {
+	display: flex !important;
+}
+
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):after, .do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):before {
+	border: 1px solid #ccc !important;
+}
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):after, .do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):before, .woocommerce form .quantity.buttons-added .qty {
+	border: 1px solid #ccc !important;
+}
+a.reset_variations {
+	display: none !important;
+}
+table.variations {
+    margin-bottom: 0 !important;
+}
+span.woocommerce-Price-amount.amount {
+    font-weight: bold;
+}
+.variations th.label {
+    display: none;
+}
+.woopack-product-action table , .woopack-product-action th , .woopack-product-action tr, .woopack-product-action td, .woopack-product-action input{
+    border: none;
+}
+.woopack-product-action   .qty {
+    display: none !important;
+}
+.woopack-product-action  .woocommerce-variation-price {
+	margin-top:5px !important}
+
+.wcpr-overall-rating-and-rating-count {
+    margin-left: 30px;
+}
+
+h2.woocommerce-Reviews-title {
+    margin-left: 30px !IMPORTANT;
+}
